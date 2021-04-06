@@ -1,0 +1,180 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.navbar {
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;  
+  width: 100%;
+  z-index: 1;
+  box-shadow: -1px 17px 20px -15px rgba(0,0,0,0.68);
+  height: 8vh;
+}
+.icon-logo {
+  vertical-align: center;
+  font-size: 1.6rem;
+}
+.company-logo > a{
+  text-decoration: none;
+  color: coral;
+  font-size: 1.8rem;
+  font-weight: bolder;
+}
+.nav-link-items {
+  list-style: none;
+  width: 45vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-link > a {
+  text-decoration: none;
+  color: black;
+}
+.home-section {
+  display: flex;
+  margin-top: 10vh;
+}
+.contact-form-container {
+  width: 50vw;
+}
+.contact-container {
+  width: 50vw;
+}
+.logout {
+  text-decoration: none;
+  color: black;
+}
+.icon {
+  vertical-align: middle;
+  font-size: 1.5rem;
+}
+
+
+/* contact form */
+.contact-form-container {
+  width: 20vw;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  margin: 10px auto;
+}
+.contact-form-container > h2 {
+  text-align: center;
+}
+.contact-form-container > input {
+  height: 1.6rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* contact-items */
+.singleContactItem {
+  width: 30vw;
+  background-color: rgba(230, 230, 230, 0.603);
+  padding: 10px;
+  margin: 10px auto;
+}
+.contact-type.green {
+  color: green;
+}
+.contact-type.red {
+  color: red;
+}
+/* Register form */
+.register-form {
+  display: flex;
+  flex-direction: column;
+  width: 23vw;
+  margin: 0 auto;
+  margin-top: 20vh;
+}
+.register-form > h2 {
+  text-align: center
+}
+.register-form > input {
+  height: 1.6rem;
+}
+.btn-primary {
+  display: inline-block;
+  background-color: green;
+  color: white;
+  outline: none;
+  border: none;
+  padding: 10px 25px;
+  margin: 10px;
+  cursor: pointer;
+}
+.btn-primary:hover {
+  color:black;
+}
+.edit-btn{
+  background-color: hsl(120, 56%, 59%);
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 5px 20px;
+}
+.delete-btn{
+  background-color: rgb(240, 84, 84);
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 5px 20px;
+  margin-left: 10px;
+}
+.edit-btn:hover, .delete-btn:hover{
+  color: white;
+}
+
+/* Login form */
+.login-form {
+  display: flex;
+  flex-direction: column;
+  width: 25vw;
+  margin: 20vh auto;
+}
+.login-form > h2{
+  text-align: center
+}
+.login-form > input {
+  height: 1.6rem;
+}
+/* alert  */
+.message {
+  text-align: center;
+  width: 40vw;
+  margin: auto;
+}
+.message.danger {
+  background-color: rgba(255, 0, 0, 0.9);
+  color: white;
+}
+.message.warning {
+  background-color: yellow;
+  color: black;
+}
+.message.success {
+  background-color: green;
+  color: white;
+}
+/* About page */
+.about-header {
+  height: 92vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
